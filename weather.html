@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+input {
+	width: 15%;
+}
+body {
+	background-image: url("sky.JPG");
+}
+h1 {
+        font-family: "Times New Roman";
+        text-align: center;
+}
+ul {
+        list-style-type: none;
+        margin: 30;
+        padding: 10;
+        overflow: hidden;
+        background-color: #257;
+}
+
+li {
+        float: left;
+}
+li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+li a:hover {
+        background-color: #368;
+}
+</style>
+</head>
+<body>
+<h1>Current Weather</h1>
+
+ <ul>
+          <li><a class="active" href="home">Home</a></li>
+          <li><a href="weather">Weather</a></li>
+          <li><a href="forecast">Forecast</a><li>
+          <li><a href="about">About</a><li>
+          <li><a href="contact">Contact</a><li>
+        </ul>
+
+
+<p>32 degrees</p>
+<p>Mostly cloudy</p>
+<p>Sunrise: 7:48 AM</p>
+<p>Sunset: 5:22 PM</p>
+
+
+<form>
+	<label for="state">State</label>
+	<input type="text" id="state" name="state">
+	<label for="zip">Zip</label>
+	<input type="text" id="zip" name="zip"
+>
+</form>
+</body>
+</html>
